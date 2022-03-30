@@ -20,6 +20,4 @@ public class Apostador {
      private String nome;
      private String email;
 
-     public Apostador(Long aLong, String nome, String email) {
-     }
 }
