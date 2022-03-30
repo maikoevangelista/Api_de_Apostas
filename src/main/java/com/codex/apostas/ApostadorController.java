@@ -13,7 +13,7 @@ public class ApostadorController {
 
     @PostMapping("/apostador")
     public ResponseEntity salvarApostador(@RequestBody ApostadorIn apostadorIn) {
-
+        Apostador apostador = apostadorIn.toConvert();
 
         return ResponseEntity.status(CREATED).build();
     }

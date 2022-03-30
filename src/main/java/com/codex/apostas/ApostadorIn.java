@@ -12,4 +12,7 @@ public class ApostadorIn {
     public String getEmail() {
         return Email;
     }
+    public Apostador toConvert(){
+        return new Apostador(nome, Email);
+    }
 }
