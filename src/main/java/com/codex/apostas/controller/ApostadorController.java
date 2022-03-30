@@ -1,5 +1,8 @@
-package com.codex.apostas;
+package com.codex.apostas.controller;
 
+import com.codex.apostas.model.Apostador;
+import com.codex.apostas.model.dto.ApostadorIn;
+import com.codex.apostas.repository.ApostadorRepository;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;

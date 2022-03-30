@@ -1,5 +1,6 @@
-package com.codex.apostas;
+package com.codex.apostas.repository;
 
+import com.codex.apostas.model.Apostador;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

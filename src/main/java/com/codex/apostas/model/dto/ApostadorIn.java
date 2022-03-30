@@ -1,4 +1,6 @@
-package com.codex.apostas;
+package com.codex.apostas.model.dto;
+
+import com.codex.apostas.model.Apostador;
 
 public class ApostadorIn {
 
