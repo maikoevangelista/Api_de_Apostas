@@ -11,7 +11,7 @@ import static org.springframework.http.HttpStatus.CREATED;
 @RestController
 public class ApostaController {
 
-    @PostMapping("/apostas")
+    @PostMapping("/aposta")
     public ResponseEntity salvarAposta(@RequestBody ApostaIn apostaIn){
 
         return ResponseEntity.status(CREATED).build();
